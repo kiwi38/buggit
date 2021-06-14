@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<K5project version="1.1">
+   <programs>
+      <pou name="MP3_LD" kind="program" period="1" phase="0" lge="LD">
+         <vargroup name="MP3_LD" kind="LOCAL">
+            <var name="UP" type="BOOL"/>
+            <var name="DN" type="BOOL"/>
+            <var name="MUTE" type="BOOL"/>
+            <var name="LEVEL" type="DINT"/>
+            <var name="Inst_CTUD" type="CTUD"/>
+            <var name="Inst_R_TRIG" type="R_TRIG"/>
+            <var name="Inst_R_TRIG1" type="R_TRIG"/>
+            <var name="Inst_FLIPFLOP" type="FlipFlop"/>
+            <var name="Inst_PLS" type="PLS"/>
+            <var name="Inst_PLS1" type="PLS"/>
+            <var name="_TBOOL" type="BOOL"/>
+         </vargroup>
+<defines name="MP3_LD"></defines>
+         <sourceLD>
+            <LDrung dx="0" dy="0" sx="6" sy="1" label="">
+               <LDcontact kind="D" symbol="UP" dx="0" dy="0"/>
+               <LDbox dx="0" dy="0" sx="3" sy="1" kind="FB" type="R_TRIG" inst="Inst_R_TRIG">
+               </LDbox>
+               <LDcoil kind="D" symbol="" dx="0" dy="0"/>
+            </LDrung>
+            <LDrung dx="0" dy="0" sx="6" sy="2" label="">
+               <LDcontact kind="D" symbol="MUTE" dx="0" dy="0"/>
+               <LDbox dx="0" dy="0" sx="3" sy="2" kind="FB" type="FlipFlop" inst="Inst_FLIPFLOP">
+                  <LDboxinput pin="0" symbol="false"/>
+               </LDbox>
+               <LDcoil kind="D" symbol="" dx="0" dy="0"/>
+            </LDrung>
+            <LDrung dx="0" dy="0" sx="6" sy="2" label="">
+               <LDcontact kind="D" symbol="UP" dx="0" dy="0"/>
+               <LDbox dx="0" dy="0" sx="3" sy="2" kind="FB" type="PLS" inst="Inst_PLS">
+                  <LDboxinput pin="0" symbol="t#1s"/>
+               </LDbox>
+               <LDcoil kind="D" symbol="" dx="0" dy="0"/>
+            </LDrung>
+            <LDrung dx="0" dy="0" sx="6" sy="1" label="">
+               <LDcontact kind="D" symbol="DN" dx="0" dy="0"/>
+               <LDbox dx="0" dy="0" sx="3" sy="1" kind="FB" type="R_TRIG" inst="Inst_R_TRIG1">
+               </LDbox>
+               <LDcoil kind="D" symbol="" dx="0" dy="0"/>
+            </LDrung>
+            <LDrung dx="0" dy="0" sx="6" sy="2" label="">
+               <LDcontact kind="D" symbol="DN" dx="0" dy="0"/>
+               <LDbox dx="0" dy="0" sx="3" sy="2" kind="FB" type="PLS" inst="Inst_PLS1">
+                  <LDboxinput pin="0" symbol="t#1s"/>
+               </LDbox>
+               <LDcoil kind="D" symbol="" dx="0" dy="0"/>
+            </LDrung>
+            <LDrung dx="0" dy="0" sx="3" sy="2" label="">
+               <LDdiv dx="0" dy="0" sx="1" sy="2">
+                  <LDbranch dx="0" dy="0" sx="1" sy="1">
+                     <LDcontact kind="D" symbol="Inst_R_TRIG1.Q" dx="0" dy="0"/>
+                  </LDbranch>
+                  <LDbranch dx="0" dy="0" sx="1" sy="1">
+                     <LDcontact kind="D" symbol="Inst_PLS1.Q" dx="0" dy="0"/>
+                  </LDbranch>
+               </LDdiv>
+               <LDcoil kind="D" symbol="_TBOOL" dx="0" dy="0"/>
+            </LDrung>
+            <LDrung dx="0" dy="0" sx="6" sy="5" label="">
+               <LDdiv dx="0" dy="0" sx="1" sy="2">
+                  <LDbranch dx="0" dy="0" sx="1" sy="1">
+                     <LDcontact kind="D" symbol="Inst_R_TRIG.Q" dx="0" dy="0"/>
+                  </LDbranch>
+                  <LDbranch dx="0" dy="0" sx="1" sy="1">
+                     <LDcontact kind="D" symbol="Inst_PLS.Q" dx="0" dy="0"/>
+                  </LDbranch>
+               </LDdiv>
+               <LDbox dx="0" dy="0" sx="3" sy="5" kind="FB" type="CTUD" inst="Inst_CTUD">
+                  <LDboxinput pin="0" symbol="_TBOOL"/>
+                  <LDboxinput pin="1" symbol="false"/>
+                  <LDboxinput pin="2" symbol="false"/>
+                  <LDboxinput pin="3" symbol="10"/>
+               </LDbox>
+               <LDcoil kind="D" symbol="" dx="0" dy="0"/>
+            </LDrung>
+            <LDrung dx="0" dy="0" sx="6" sy="3" label="">
+               <LDcontact kind="D" symbol="Inst_FLIPFLOP.Q" dx="0" dy="0"/>
+               <LDbox dx="0" dy="0" sx="3" sy="3" kind="OP" type="SEL">
+                  <LDboxinput pin="0" symbol="Inst_CTUD.CV"/>
+                  <LDboxinput pin="1" symbol="0"/>
+                  <LDboxoutput pin="0" symbol="LEVEL"/>
+               </LDbox>
+               <LDcoil kind="D" symbol="" dx="0" dy="0"/>
+            </LDrung>
+         </sourceLD>
+      </pou>
+   </programs>
+</K5project>
