@@ -9,6 +9,7 @@
 #OnBadArrayIndex pOnBadIndex
 
 // add your definitions here
+machine
 </defines>
    </definitions>
 </K5project>
