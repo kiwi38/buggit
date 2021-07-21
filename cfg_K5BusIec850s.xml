@@ -3,7 +3,7 @@
    <networks>
    </networks>
    <fieldbus>
-      <K5BusIec850s K5ID="1" FILEDIR="" NICID="" LOCALGOOSESCL="" MAXBRCB="1000" MAXCONN="0" PORT="102" IDS_GOENA_START="1" __F="-8">
+      <K5BusIec850s K5ID="1" FILEDIR="" NICID="" LOCALGOOSESCL="" MAXBRCB="1000" MAXCONN="0" PORT="102" IDS_GOENA_START="1" TLS="" __F="-8">
       </K5BusIec850s>
    </fieldbus>
 </K5project>
