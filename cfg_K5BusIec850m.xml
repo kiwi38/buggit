@@ -3,7 +3,7 @@
    <networks>
    </networks>
    <fieldbus>
-      <K5BusIec850m K5ID="1" FTPATH="C:\Temp" COMINCYCLE="0" ALLVALUES="0" ORCAT="2" __F="-1">
+      <K5BusIec850m K5ID="1" FTPATH="C:\Temp" COMINCYCLE="0" ALLVALUES="0" ORCAT="2" PKIPATH="" __F="-1">
       </K5BusIec850m>
    </fieldbus>
 </K5project>
