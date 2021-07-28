@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<Appli>
+   <Folder Name="Exception programs">
+      <Program Name="pOnBadIndex"/>
+      <Program Name="pOnDivZero"/>
+      <Program Name="pShutDown"/>
+      <Program Name="pStartup"/>
+   </Folder>
+   <Folder Name="Programs">
+      <Program Name="MP3"/>
+      <Program Name="MP3_LD"/>
+      <Program Name="MP3_ST"/>
+      <Program Name="MP3_UDFB"/>
+      <Program Name="SFC_EX7"/>
+      <Program Name="SFC_Practice"/>
+      <Program Name="UDFB_Boutons"/>
+   </Folder>
+   <Folder Name="Watch (for debugging)">
+      <File Name="Soft Scope.SS5"/>
+   </Folder>
+   <File Name="Initial values.RCP"/>
+   <FieldBus/>
+   <Binding/>
+   <GlobalDef/>
+   <Vars/>
+   <Types/>
+</Appli>
