@@ -58,6 +58,19 @@
       <pou name="pOnBadIndex" sect="end" lge="ST"/>
       <pou name="MP3" sect="end" lge="FBD"/>
       <pou name="MP3_LD" sect="end" lge="LD"/>
+      <pou name="a" sect="end" lge="FBD"/>
+      <pou name="b" sect="end" lge="FBD"/>
+      <pou name="c" sect="end" lge="FBD"/>
+      <pou name="d" sect="end" lge="FBD"/>
+      <pou name="e" sect="end" lge="FBD"/>
+      <pou name="f" sect="end" lge="FBD"/>
+      <pou name="g" sect="end" lge="FBD"/>
+      <pou name="h" sect="end" lge="FBD"/>
+      <pou name="i" sect="end" lge="FBD"/>
+      <pou name="j" sect="end" lge="FBD"/>
+      <pou name="k" sect="end" lge="FBD"/>
+      <pou name="l" sect="end" lge="FBD"/>
+      <pou name="m" sect="end" lge="FBD"/>
       <pou name="UDFB_Boutons" sect="udfb" lge="FBD"/>
    </poulist>
 </K5project>

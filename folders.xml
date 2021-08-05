@@ -7,6 +7,19 @@
       <Program Name="pStartup"/>
    </Folder>
    <Folder Name="Programs">
+      <Program Name="a"/>
+      <Program Name="b"/>
+      <Program Name="c"/>
+      <Program Name="d"/>
+      <Program Name="e"/>
+      <Program Name="f"/>
+      <Program Name="g"/>
+      <Program Name="h"/>
+      <Program Name="i"/>
+      <Program Name="j"/>
+      <Program Name="k"/>
+      <Program Name="l"/>
+      <Program Name="m"/>
       <Program Name="MP3"/>
       <Program Name="MP3_LD"/>
       <Program Name="MP3_ST"/>
