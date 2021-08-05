@@ -8,6 +8,7 @@
          <var name="NewVar2" type="BOOL"/>
          <var name="NewVar3" type="BOOL"/>
          <var name="NewVar4" type="BOOL"/>
+         <var name="VARPULL" type="BOOL"/>
       </vargroup>
       <vargroup name="(Retain)" kind="RETAIN">
       </vargroup>
