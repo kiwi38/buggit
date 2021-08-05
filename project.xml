@@ -71,6 +71,22 @@
       <pou name="k" sect="end" lge="FBD"/>
       <pou name="l" sect="end" lge="FBD"/>
       <pou name="m" sect="end" lge="FBD"/>
+      <pou name="n" sect="end" lge="FBD"/>
+      <pou name="o" sect="end" lge="FBD"/>
+      <pou name="p" sect="end" lge="ST"/>
+      <pou name="q" sect="end" lge="FBD"/>
+      <pou name="r" sect="end" lge="FBD"/>
+      <pou name="s" sect="end" lge="FBD"/>
+      <pou name="t" sect="end" lge="FBD"/>
+      <pou name="u" sect="end" lge="FBD"/>
+      <pou name="v" sect="end" lge="FBD"/>
+      <pou name="w" sect="end" lge="FBD"/>
+      <pou name="x" sect="end" lge="FBD"/>
+      <pou name="y" sect="end" lge="FBD"/>
+      <pou name="z" sect="end" lge="FBD"/>
+      <pou name="zz" sect="end" lge="FBD"/>
+      <pou name="zzz" sect="end" lge="FBD"/>
+      <pou name="zzzz" sect="end" lge="FBD"/>
       <pou name="UDFB_Boutons" sect="udfb" lge="FBD"/>
    </poulist>
 </K5project>
