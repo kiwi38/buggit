@@ -16,7 +16,7 @@
       <Program Name="UDFB_Boutons"/>
    </Folder>
    <Folder Name="Watch (for debugging)">
-      <File Name="Soft Scope.SS5"/>
+      <File Name="Soft Scope.ss5"/>
    </Folder>
    <File Name="Initial values.RCP"/>
    <FieldBus/>
