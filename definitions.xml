@@ -20,6 +20,7 @@ toto
 CHANGEFOR_PULL1
 CHANGEFORPULL2
    CHANGE3
+   CHANGE4
 </defines>
    </definitions>
 </K5project>
