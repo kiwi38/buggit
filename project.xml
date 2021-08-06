@@ -87,6 +87,7 @@
       <pou name="zz" sect="end" lge="FBD"/>
       <pou name="zzz" sect="end" lge="FBD"/>
       <pou name="zzzz" sect="end" lge="FBD"/>
+      <pou name="TESTPULL" sect="end" lge="FBD"/>
       <pou name="UDFB_Boutons" sect="udfb" lge="FBD"/>
    </poulist>
 </K5project>
