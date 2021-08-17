@@ -21,6 +21,9 @@ CHANGEFOR_PULL1
 CHANGEFORPULL2
    CHANGE3
    CHANGE4
+
+TEST PUSH AVEC SSH GITHUB
+
 </defines>
    </definitions>
 </K5project>
