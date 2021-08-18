@@ -13,6 +13,7 @@
             <var name="MUTE" type="BOOL"/>
             <var name="Inst_CTUD" type="CTUD"/>
             <var name="level" type="DINT"/>
+            <var name="PULL" type="BOOL"/>
          </vargroup>
 <defines name="MP3_ST"></defines>
          <sourceSTIL>Inst_R_TRIG( UP(*BOOL*) );
@@ -25,6 +26,9 @@ Inst_CTUD( Inst_R_TRIG.Q or Inst_PLS.Q(*BOOL*), Inst_R_TRIG1.Q or Inst_PLS1.Q(*B
 level := SEL( Inst_FLIPFLOP.Q(*BOOL*), Inst_CTUD.CV(*ANY*), 0(*ANY*) );
             
             PULL SOURCE ST
+            
+2 lignes pour tester
+le push avec token
          </sourceSTIL>
       </pou>
    </programs>
