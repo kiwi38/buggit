@@ -32,7 +32,6 @@ level := SEL( Inst_FLIPFLOP.Q(*BOOL*), Inst_CTUD.CV(*ANY*), 0(*ANY*) );
 le push avec token
 
 test separe
-
          </sourceSTIL>
       </pou>
    </programs>
