@@ -7,10 +7,10 @@
       <Program Name="pStartup"/>
    </Folder>
    <Folder Name="Programs">
-      <Program Name="MP3"/>
       <Program Name="MP3_LD"/>
       <Program Name="MP3_ST"/>
       <Program Name="MP3_UDFB"/>
+      <Program Name="MP4"/>
       <Program Name="SFC_EX7"/>
       <Program Name="SFC_Practice"/>
       <Program Name="UDFB_Boutons"/>
