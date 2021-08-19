@@ -58,8 +58,6 @@
       <pou name="pOnBadIndex" sect="end" lge="ST"/>
       <pou name="MP2" sect="end" lge="FBD"/>
       <pou name="MP3_LD" sect="end" lge="LD"/>
-      <pou name="prg1" sect="end" lge="FBD"/>
-      <pou name="prg2" sect="end" lge="FBD"/>
       <pou name="UDFB_Boutons" sect="udfb" lge="FBD"/>
    </poulist>
 </K5project>
