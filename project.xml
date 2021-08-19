@@ -56,7 +56,7 @@
       <pou name="pShutDown" sect="end" lge="ST"/>
       <pou name="pOnDivZero" sect="end" lge="ST"/>
       <pou name="pOnBadIndex" sect="end" lge="ST"/>
-      <pou name="MP5" sect="end" lge="FBD"/>
+      <pou name="MP2" sect="end" lge="FBD"/>
       <pou name="MP3_LD" sect="end" lge="LD"/>
       <pou name="UDFB_Boutons" sect="udfb" lge="FBD"/>
    </poulist>
