@@ -50,7 +50,6 @@
    <poulist>
       <pou name="MP3_UDFB" sect="begin" lge="FBD"/>
       <pou name="MP3_ST" sect="begin" lge="ST"/>
-      <pou name="newfbd" sect="begin" lge="FBD"/>
       <pou name="SFC_Practice" sect="sfc" lge="SFC"/>
       <pou name="SFC_EX7" sect="sfc" lge="SFC"/>
       <pou name="pStartup" sect="end" lge="ST"/>
