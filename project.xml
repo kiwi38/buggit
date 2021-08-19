@@ -50,6 +50,7 @@
    <poulist>
       <pou name="MP3_UDFB" sect="begin" lge="FBD"/>
       <pou name="MP3_ST" sect="begin" lge="ST"/>
+      <pou name="newfbd" sect="begin" lge="FBD"/>
       <pou name="SFC_Practice" sect="sfc" lge="SFC"/>
       <pou name="SFC_EX7" sect="sfc" lge="SFC"/>
       <pou name="pStartup" sect="end" lge="ST"/>
@@ -58,7 +59,6 @@
       <pou name="pOnBadIndex" sect="end" lge="ST"/>
       <pou name="MP3" sect="end" lge="FBD"/>
       <pou name="MP3_LD" sect="end" lge="LD"/>
-      <pou name="newfbd" sect="end" lge="FBD"/>
       <pou name="UDFB_Boutons" sect="udfb" lge="FBD"/>
    </poulist>
 </K5project>
