@@ -15,6 +15,7 @@
             <var name="level" type="DINT"/>
             <var name="PULL" type="BOOL"/>
             <var name="push" type="BOOL"/>
+            <var name="test" type="BOOL"/>
          </vargroup>
 <defines name="MP3_ST"></defines>
          <sourceSTIL>Inst_R_TRIG( UP(*BOOL*) );
@@ -32,6 +33,10 @@ level := SEL( Inst_FLIPFLOP.Q(*BOOL*), Inst_CTUD.CV(*ANY*), 0(*ANY*) );
 le push avec token
 
 test separe
+
+
+TEST DSM GIT
+
          </sourceSTIL>
       </pou>
    </programs>
