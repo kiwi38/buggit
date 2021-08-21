@@ -16,6 +16,7 @@
             <var name="PULL" type="BOOL"/>
             <var name="push" type="BOOL"/>
             <var name="test" type="BOOL"/>
+            <var name="PULL4" type="BOOL"/>
          </vargroup>
 <defines name="MP3_ST"></defines>
          <sourceSTIL>Inst_R_TRIG( UP(*BOOL*) );
@@ -46,6 +47,9 @@ PULL1 from Github
             PULL3
             
             PULL4
+            
+            modif straton
+            
          </sourceSTIL>
       </pou>
    </programs>
