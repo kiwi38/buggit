@@ -40,6 +40,8 @@ TEST DSM GIT
 TEST2 DSM2
 TEST PORT 1022GIT
 TEST GIT DSM SSH
+            
+PULL1 from Github
 
          </sourceSTIL>
       </pou>
