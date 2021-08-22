@@ -3,6 +3,7 @@
    <programs>
       <pou name="MP3_ST" kind="program" period="1" phase="0" lge="ST">
          <vargroup name="MP3_ST" kind="LOCAL">
+            <var name="CONF" type="BOOL"/>
          </vargroup>
 <defines name="MP3_ST"></defines>
          <sourceSTIL>Inst_R_TRIG( UP(*BOOL*) );
@@ -45,8 +46,11 @@ TESTPUSH FROM STARTON DIMANCHE2
             PULL2
 PULL3
             PULL4
-
+            
 ******CONF STRAT
+
+$$$$$$$$$$$$$$$ S
+
          </sourceSTIL>
       </pou>
    </programs>
