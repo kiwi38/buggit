@@ -3,6 +3,7 @@
    <programs>
       <pou name="MP3_ST" kind="program" period="1" phase="0" lge="ST">
          <vargroup name="MP3_ST" kind="LOCAL">
+            <var name="TES2" type="BOOL"/>
          </vargroup>
 <defines name="MP3_ST"></defines>
          <sourceSTIL>Inst_R_TRIG( UP(*BOOL*) );
@@ -49,6 +50,8 @@ PULL3
             ===TEST CONFLIT
             
             ééééééé TES2
+            
+            TEXTE POUR TST CONFLICT
          </sourceSTIL>
       </pou>
    </programs>
