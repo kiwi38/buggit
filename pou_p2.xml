@@ -6,6 +6,28 @@
          </vargroup>
 <defines name="p2"></defines>
          <sourceFBD sxcell="16" sycell="16">
+            <FBDbox id="1" order="0" dx="16" dy="11" sx="4" sy="3" nbi="2" nbo="1" style="0" kind="OP" type="&amp;"/>
+            <FBDvarbox id="2" order="0" dx="7" dy="12" sx="8" sy="1" symbol="" style="0"/>
+            <FBDvarbox id="4" order="0" dx="21" dy="12" sx="8" sy="1" symbol="" style="0"/>
+            <FBDvarbox id="3" order="0" dx="7" dy="13" sx="8" sy="1" symbol="" style="0"/>
+            <FBDline negate="0" idfrom="1" idto="4" pinfrom="0" pinto="0" cutx="50" cuty="50">
+               <FBDlinepoint xcell="20" ycell="12" xincell="0" yincell="8"/>
+               <FBDlinepoint xcell="20" ycell="12" xincell="7" yincell="8"/>
+               <FBDlinepoint xcell="20" ycell="12" xincell="7" yincell="8"/>
+               <FBDlinepoint xcell="21" ycell="12" xincell="1" yincell="8"/>
+            </FBDline>
+            <FBDline negate="0" idfrom="2" idto="1" pinfrom="0" pinto="0" cutx="50" cuty="50">
+               <FBDlinepoint xcell="15" ycell="12" xincell="0" yincell="8"/>
+               <FBDlinepoint xcell="15" ycell="12" xincell="7" yincell="8"/>
+               <FBDlinepoint xcell="15" ycell="12" xincell="7" yincell="8"/>
+               <FBDlinepoint xcell="16" ycell="12" xincell="1" yincell="8"/>
+            </FBDline>
+            <FBDline negate="0" idfrom="3" idto="1" pinfrom="0" pinto="1" cutx="50" cuty="50">
+               <FBDlinepoint xcell="15" ycell="13" xincell="0" yincell="8"/>
+               <FBDlinepoint xcell="15" ycell="13" xincell="7" yincell="8"/>
+               <FBDlinepoint xcell="15" ycell="13" xincell="7" yincell="8"/>
+               <FBDlinepoint xcell="16" ycell="13" xincell="1" yincell="8"/>
+            </FBDline>
          </sourceFBD>
       </pou>
    </programs>
