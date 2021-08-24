@@ -61,6 +61,7 @@
       <pou name="p2" sect="end" lge="FBD"/>
       <pou name="p3" sect="end" lge="FBD"/>
       <pou name="del10" sect="end" lge="FBD"/>
+      <pou name="tttt" sect="end" lge="FBD"/>
       <pou name="UDFB_Boutons" sect="udfb" lge="FBD"/>
    </poulist>
 </K5project>
