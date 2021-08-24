@@ -64,6 +64,7 @@
       <pou name="tttt" sect="end" lge="FBD"/>
       <pou name="mmmmmm" sect="end" lge="FBD"/>
       <pou name="dddddd" sect="end" lge="FBD"/>
+      <pou name="NewPrg" sect="end" lge="FBD"/>
       <pou name="UDFB_Boutons" sect="udfb" lge="FBD"/>
    </poulist>
 </K5project>
