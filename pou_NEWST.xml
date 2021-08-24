@@ -5,8 +5,7 @@
          <vargroup name="NEWST" kind="LOCAL">
          </vargroup>
 <defines name="NEWST"></defines>
-         <sourceSTIL>Inst_R_TRIG( UP(*BOOL*) );
-NEW ST
+         <sourceSTIL>
          </sourceSTIL>
       </pou>
    </programs>

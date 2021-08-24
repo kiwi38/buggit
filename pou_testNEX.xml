@@ -6,6 +6,7 @@
          </vargroup>
 <defines name="testNEX"></defines>
          <sourceFBD sxcell="16" sycell="16">
+            <FBDcomment id="1" order="0" dx="6" dy="2" sx="8" sy="3" style="3">NewNex            </FBDcomment>
          </sourceFBD>
       </pou>
    </programs>
