@@ -3,6 +3,7 @@
    <programs>
       <pou name="p2" kind="program" period="1" phase="0" lge="FBD">
          <vargroup name="p2" kind="LOCAL">
+            <var name="Inst_UDFB_Boutons" type="UDFB_Boutons"/>
          </vargroup>
 <defines name="p2"></defines>
          <sourceFBD sxcell="16" sycell="16">
@@ -10,6 +11,9 @@
             <FBDvarbox id="2" order="0" dx="7" dy="12" sx="8" sy="1" symbol="" style="0"/>
             <FBDvarbox id="4" order="0" dx="21" dy="12" sx="8" sy="1" symbol="" style="0"/>
             <FBDvarbox id="3" order="0" dx="7" dy="13" sx="8" sy="1" symbol="" style="0"/>
+            <FBDbox id="5" order="0" dx="12" dy="25" sx="4" sy="3" nbi="1" nbo="1" style="0" kind="FB" type="UDFB_Boutons" inst="Inst_UDFB_Boutons"/>
+            <FBDvarbox id="6" order="0" dx="3" dy="27" sx="8" sy="1" symbol="" style="0"/>
+            <FBDvarbox id="7" order="0" dx="17" dy="27" sx="8" sy="1" symbol="" style="0"/>
             <FBDline negate="0" idfrom="1" idto="4" pinfrom="0" pinto="0" cutx="50" cuty="50">
                <FBDlinepoint xcell="20" ycell="12" xincell="0" yincell="8"/>
                <FBDlinepoint xcell="20" ycell="12" xincell="7" yincell="8"/>
@@ -27,6 +31,18 @@
                <FBDlinepoint xcell="15" ycell="13" xincell="7" yincell="8"/>
                <FBDlinepoint xcell="15" ycell="13" xincell="7" yincell="8"/>
                <FBDlinepoint xcell="16" ycell="13" xincell="1" yincell="8"/>
+            </FBDline>
+            <FBDline negate="0" idfrom="5" idto="7" pinfrom="0" pinto="0" cutx="50" cuty="50">
+               <FBDlinepoint xcell="16" ycell="27" xincell="0" yincell="8"/>
+               <FBDlinepoint xcell="16" ycell="27" xincell="7" yincell="8"/>
+               <FBDlinepoint xcell="16" ycell="27" xincell="7" yincell="8"/>
+               <FBDlinepoint xcell="17" ycell="27" xincell="1" yincell="8"/>
+            </FBDline>
+            <FBDline negate="0" idfrom="6" idto="5" pinfrom="0" pinto="0" cutx="50" cuty="50">
+               <FBDlinepoint xcell="11" ycell="27" xincell="0" yincell="8"/>
+               <FBDlinepoint xcell="11" ycell="27" xincell="7" yincell="8"/>
+               <FBDlinepoint xcell="11" ycell="27" xincell="7" yincell="8"/>
+               <FBDlinepoint xcell="12" ycell="27" xincell="1" yincell="8"/>
             </FBDline>
          </sourceFBD>
       </pou>

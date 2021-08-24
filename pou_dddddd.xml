@@ -3,6 +3,7 @@
    <programs>
       <pou name="dddddd" kind="program" period="1" phase="0" lge="FBD">
          <vargroup name="dddddd" kind="LOCAL">
+            <var name="Inst_ALARM_A" type="Alarm_A"/>
          </vargroup>
 <defines name="dddddd"></defines>
          <sourceFBD sxcell="16" sycell="16">
@@ -18,6 +19,11 @@
             <FBDvarbox id="6" order="0" dx="11" dy="21" sx="8" sy="1" symbol="" style="0"/>
             <FBDvarbox id="8" order="0" dx="25" dy="21" sx="8" sy="1" symbol="" style="0"/>
             <FBDvarbox id="7" order="0" dx="11" dy="22" sx="8" sy="1" symbol="" style="0"/>
+            <FBDbox id="17" order="0" dx="20" dy="26" sx="4" sy="4" nbi="2" nbo="2" style="0" kind="FB" type="ALARM_A" inst="Inst_ALARM_A"/>
+            <FBDvarbox id="18" order="0" dx="11" dy="28" sx="8" sy="1" symbol="" style="0"/>
+            <FBDvarbox id="20" order="0" dx="25" dy="28" sx="8" sy="1" symbol="" style="0"/>
+            <FBDvarbox id="19" order="0" dx="11" dy="29" sx="8" sy="1" symbol="" style="0"/>
+            <FBDvarbox id="21" order="0" dx="25" dy="29" sx="8" sy="1" symbol="" style="0"/>
             <FBDbox id="9" order="0" dx="16" dy="30" sx="4" sy="3" nbi="2" nbo="1" style="0" kind="OP" type="+"/>
             <FBDvarbox id="10" order="0" dx="7" dy="31" sx="8" sy="1" symbol="" style="0"/>
             <FBDvarbox id="12" order="0" dx="21" dy="31" sx="8" sy="1" symbol="" style="0"/>
@@ -93,6 +99,30 @@
                <FBDlinepoint xcell="17" ycell="17" xincell="7" yincell="8"/>
                <FBDlinepoint xcell="17" ycell="17" xincell="7" yincell="8"/>
                <FBDlinepoint xcell="18" ycell="17" xincell="1" yincell="8"/>
+            </FBDline>
+            <FBDline negate="0" idfrom="17" idto="20" pinfrom="0" pinto="0" cutx="50" cuty="50">
+               <FBDlinepoint xcell="24" ycell="28" xincell="0" yincell="8"/>
+               <FBDlinepoint xcell="24" ycell="28" xincell="7" yincell="8"/>
+               <FBDlinepoint xcell="24" ycell="28" xincell="7" yincell="8"/>
+               <FBDlinepoint xcell="25" ycell="28" xincell="1" yincell="8"/>
+            </FBDline>
+            <FBDline negate="0" idfrom="17" idto="21" pinfrom="1" pinto="0" cutx="50" cuty="50">
+               <FBDlinepoint xcell="24" ycell="29" xincell="0" yincell="8"/>
+               <FBDlinepoint xcell="24" ycell="29" xincell="7" yincell="8"/>
+               <FBDlinepoint xcell="24" ycell="29" xincell="7" yincell="8"/>
+               <FBDlinepoint xcell="25" ycell="29" xincell="1" yincell="8"/>
+            </FBDline>
+            <FBDline negate="0" idfrom="18" idto="17" pinfrom="0" pinto="0" cutx="50" cuty="50">
+               <FBDlinepoint xcell="19" ycell="28" xincell="0" yincell="8"/>
+               <FBDlinepoint xcell="19" ycell="28" xincell="7" yincell="8"/>
+               <FBDlinepoint xcell="19" ycell="28" xincell="7" yincell="8"/>
+               <FBDlinepoint xcell="20" ycell="28" xincell="1" yincell="8"/>
+            </FBDline>
+            <FBDline negate="0" idfrom="19" idto="17" pinfrom="0" pinto="1" cutx="50" cuty="50">
+               <FBDlinepoint xcell="19" ycell="29" xincell="0" yincell="8"/>
+               <FBDlinepoint xcell="19" ycell="29" xincell="7" yincell="8"/>
+               <FBDlinepoint xcell="19" ycell="29" xincell="7" yincell="8"/>
+               <FBDlinepoint xcell="20" ycell="29" xincell="1" yincell="8"/>
             </FBDline>
          </sourceFBD>
       </pou>
