@@ -66,13 +66,32 @@
       <pou name="dddddd" sect="end" lge="FBD"/>
       <pou name="NewPrg" sect="end" lge="FBD"/>
       <pou name="a" sect="end" lge="FBD"/>
+      <pou name="pp" sect="end" lge="FBD"/>
+      <pou name="qq" sect="end" lge="FBD"/>
+      <pou name="ss" sect="end" lge="FBD"/>
+      <pou name="oo" sect="end" lge="FBD"/>
+      <pou name="uu" sect="end" lge="FBD"/>
+      <pou name="yy" sect="end" lge="FBD"/>
+      <pou name="k" sect="end" lge="FBD"/>
+      <pou name="l" sect="end" lge="FBD"/>
+      <pou name="m" sect="end" lge="FBD"/>
+      <pou name="aa" sect="end" lge="FBD"/>
+      <pou name="zz" sect="end" lge="FBD"/>
       <pou name="z" sect="end" lge="FBD"/>
       <pou name="q" sect="end" lge="FBD"/>
       <pou name="s" sect="end" lge="FBD"/>
       <pou name="d" sect="end" lge="FBD"/>
       <pou name="f" sect="end" lge="FBD"/>
       <pou name="g" sect="end" lge="FBD"/>
+      <pou name="ee" sect="end" lge="FBD"/>
+      <pou name="rr" sect="end" lge="FBD"/>
+      <pou name="tt" sect="end" lge="FBD"/>
       <pou name="h" sect="end" lge="FBD"/>
+      <pou name="pa" sect="end" lge="FBD"/>
+      <pou name="p5" sect="end" lge="FBD"/>
+      <pou name="p6" sect="end" lge="FBD"/>
+      <pou name="p7" sect="end" lge="FBD"/>
+      <pou name="p8" sect="end" lge="FBD"/>
       <pou name="UDFB_Boutons" sect="udfb" lge="FBD"/>
    </poulist>
 </K5project>
