@@ -3,9 +3,13 @@
    <programs>
       <pou name="newfromG0" kind="program" period="1" phase="0" lge="ST">
          <vargroup name="newfromG0" kind="LOCAL">
+            <var name="cccsddfdsf" type="DINT"/>
          </vargroup>
 <defines name="newfromG0"></defines>
-         <sourceSTIL>
+         <sourceSTIL>cccsddfdsf
+f
+ssff
+
          </sourceSTIL>
       </pou>
    </programs>
