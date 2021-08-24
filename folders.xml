@@ -9,6 +9,7 @@
    <Folder Name="Programs">
       <Program Name="a"/>
       <Program Name="aa"/>
+      <Program Name="cxcxcc"/>
       <Program Name="d"/>
       <Program Name="dddddd"/>
       <Program Name="del10"/>
@@ -52,7 +53,7 @@
    <Folder Name="Watch (for debugging)">
       <File Name="Soft Scope.ss5"/>
    </Folder>
-   <Program Name="cxcxcc"/>
+   <Program Name="newfromG0"/>
    <Program Name="NEWST"/>
    <Program Name="testNEX"/>
    <File Name="Initial values.RCP"/>
