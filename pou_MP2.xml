@@ -16,10 +16,6 @@
          </vargroup>
 <defines name="MP2"></defines>
          <sourceFBD sxcell="16" sycell="16">
-            <FBDbox id="92" order="0" dx="15" dy="10" sx="4" sy="3" nbi="2" nbo="1" style="0" kind="OP" type="*"/>
-            <FBDvarbox id="93" order="0" dx="6" dy="11" sx="8" sy="1" symbol="" style="0"/>
-            <FBDvarbox id="95" order="0" dx="20" dy="11" sx="8" sy="1" symbol="" style="0"/>
-            <FBDvarbox id="94" order="0" dx="6" dy="12" sx="8" sy="1" symbol="" style="0"/>
             <FBDbox id="36" order="0" dx="9" dy="20" sx="4" sy="3" nbi="1" nbo="1" style="0" kind="FB" type="R_TRIG" inst="Inst_R_TRIG"/>
             <FBDbox id="71" order="0" dx="22" dy="21" sx="4" sy="3" nbi="2" nbo="1" style="0" kind="OP" type="OR"/>
             <FBDvarbox id="37" order="0" dx="0" dy="22" sx="8" sy="1" symbol="UP" style="0"/>
@@ -167,24 +163,6 @@
                <FBDlinepoint xcell="36" ycell="34" xincell="7" yincell="8"/>
                <FBDlinepoint xcell="36" ycell="34" xincell="7" yincell="8"/>
                <FBDlinepoint xcell="37" ycell="34" xincell="1" yincell="8"/>
-            </FBDline>
-            <FBDline negate="0" idfrom="92" idto="95" pinfrom="0" pinto="0" cutx="50" cuty="50">
-               <FBDlinepoint xcell="19" ycell="11" xincell="0" yincell="8"/>
-               <FBDlinepoint xcell="19" ycell="11" xincell="7" yincell="8"/>
-               <FBDlinepoint xcell="19" ycell="11" xincell="7" yincell="8"/>
-               <FBDlinepoint xcell="20" ycell="11" xincell="1" yincell="8"/>
-            </FBDline>
-            <FBDline negate="0" idfrom="93" idto="92" pinfrom="0" pinto="0" cutx="50" cuty="50">
-               <FBDlinepoint xcell="14" ycell="11" xincell="0" yincell="8"/>
-               <FBDlinepoint xcell="14" ycell="11" xincell="7" yincell="8"/>
-               <FBDlinepoint xcell="14" ycell="11" xincell="7" yincell="8"/>
-               <FBDlinepoint xcell="15" ycell="11" xincell="1" yincell="8"/>
-            </FBDline>
-            <FBDline negate="0" idfrom="94" idto="92" pinfrom="0" pinto="1" cutx="50" cuty="50">
-               <FBDlinepoint xcell="14" ycell="12" xincell="0" yincell="8"/>
-               <FBDlinepoint xcell="14" ycell="12" xincell="7" yincell="8"/>
-               <FBDlinepoint xcell="14" ycell="12" xincell="7" yincell="8"/>
-               <FBDlinepoint xcell="15" ycell="12" xincell="1" yincell="8"/>
             </FBDline>
          </sourceFBD>
       </pou>

@@ -6,6 +6,28 @@
          </vargroup>
 <defines name="NewPrg"></defines>
          <sourceFBD sxcell="16" sycell="16">
+            <FBDbox id="1" order="0" dx="20" dy="21" sx="4" sy="3" nbi="2" nbo="1" style="0" kind="OP" type="*"/>
+            <FBDvarbox id="2" order="0" dx="11" dy="22" sx="8" sy="1" symbol="" style="0"/>
+            <FBDvarbox id="4" order="0" dx="25" dy="22" sx="8" sy="1" symbol="" style="0"/>
+            <FBDvarbox id="3" order="0" dx="11" dy="23" sx="8" sy="1" symbol="" style="0"/>
+            <FBDline negate="0" idfrom="1" idto="4" pinfrom="0" pinto="0" cutx="50" cuty="50">
+               <FBDlinepoint xcell="24" ycell="22" xincell="0" yincell="8"/>
+               <FBDlinepoint xcell="24" ycell="22" xincell="7" yincell="8"/>
+               <FBDlinepoint xcell="24" ycell="22" xincell="7" yincell="8"/>
+               <FBDlinepoint xcell="25" ycell="22" xincell="1" yincell="8"/>
+            </FBDline>
+            <FBDline negate="0" idfrom="2" idto="1" pinfrom="0" pinto="0" cutx="50" cuty="50">
+               <FBDlinepoint xcell="19" ycell="22" xincell="0" yincell="8"/>
+               <FBDlinepoint xcell="19" ycell="22" xincell="7" yincell="8"/>
+               <FBDlinepoint xcell="19" ycell="22" xincell="7" yincell="8"/>
+               <FBDlinepoint xcell="20" ycell="22" xincell="1" yincell="8"/>
+            </FBDline>
+            <FBDline negate="0" idfrom="3" idto="1" pinfrom="0" pinto="1" cutx="50" cuty="50">
+               <FBDlinepoint xcell="19" ycell="23" xincell="0" yincell="8"/>
+               <FBDlinepoint xcell="19" ycell="23" xincell="7" yincell="8"/>
+               <FBDlinepoint xcell="19" ycell="23" xincell="7" yincell="8"/>
+               <FBDlinepoint xcell="20" ycell="23" xincell="1" yincell="8"/>
+            </FBDline>
          </sourceFBD>
       </pou>
    </programs>

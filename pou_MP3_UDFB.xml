@@ -14,8 +14,6 @@
          </vargroup>
 <defines name="MP3_UDFB"></defines>
          <sourceFBD sxcell="16" sycell="16">
-            <FBDbox id="1" order="0" dx="15" dy="6" sx="4" sy="3" nbi="1" nbo="1" style="0" kind="FB" type="UDFB_Boutons" inst="Inst_UDFB_Boutons"/>
-            <FBDvarbox id="2" order="0" dx="6" dy="8" sx="8" sy="1" symbol="UP" style="0"/>
             <FBDbox id="4" order="0" dx="15" dy="12" sx="4" sy="3" nbi="1" nbo="1" style="0" kind="FB" type="UDFB_Boutons" inst="Inst_UDFB_Boutons1"/>
             <FBDbox id="14" order="0" dx="48" dy="12" sx="4" sy="4" nbi="2" nbo="1" style="0" kind="FB" type="FLIPFLOP" inst="Inst_FLIPFLOP"/>
             <FBDvarbox id="5" order="0" dx="6" dy="14" sx="8" sy="1" symbol="DN" style="0"/>
@@ -28,18 +26,6 @@
             <FBDvarbox id="15" order="0" dx="30" dy="23" sx="8" sy="1" symbol="false" style="0"/>
             <FBDvarbox id="10" order="0" dx="44" dy="23" sx="8" sy="1" symbol="0" style="0"/>
             <FBDvarbox id="8" order="0" dx="30" dy="24" sx="8" sy="1" symbol="10" style="0"/>
-            <FBDline negate="0" idfrom="1" idto="16" pinfrom="0" pinto="0" cutx="74" cuty="50">
-               <FBDlinepoint xcell="19" ycell="8" xincell="0" yincell="8"/>
-               <FBDlinepoint xcell="32" ycell="8" xincell="7" yincell="8"/>
-               <FBDlinepoint xcell="32" ycell="20" xincell="7" yincell="8"/>
-               <FBDlinepoint xcell="39" ycell="20" xincell="1" yincell="8"/>
-            </FBDline>
-            <FBDline negate="0" idfrom="2" idto="1" pinfrom="0" pinto="0" cutx="50" cuty="50">
-               <FBDlinepoint xcell="14" ycell="8" xincell="0" yincell="8"/>
-               <FBDlinepoint xcell="14" ycell="8" xincell="7" yincell="8"/>
-               <FBDlinepoint xcell="14" ycell="8" xincell="7" yincell="8"/>
-               <FBDlinepoint xcell="15" ycell="8" xincell="1" yincell="8"/>
-            </FBDline>
             <FBDline negate="0" idfrom="4" idto="16" pinfrom="0" pinto="1" cutx="50" cuty="50">
                <FBDlinepoint xcell="19" ycell="14" xincell="0" yincell="8"/>
                <FBDlinepoint xcell="27" ycell="14" xincell="10" yincell="8"/>

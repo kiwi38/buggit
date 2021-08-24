@@ -6,6 +6,7 @@
          </vargroup>
 <defines name="mmmmmm"></defines>
          <sourceFBD sxcell="16" sycell="16">
+            <FBDbox id="1" order="0" dx="14" dy="18" sx="4" sy="1" nbi="0" nbo="0" style="0" kind="OP" type="pOnBadIndex"/>
          </sourceFBD>
       </pou>
    </programs>
