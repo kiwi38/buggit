@@ -54,6 +54,7 @@
       <File Name="Soft Scope.ss5"/>
    </Folder>
    <Program Name="NEWST"/>
+   <Program Name="testNEX"/>
    <File Name="Initial values.RCP"/>
    <FieldBus/>
    <Binding/>
