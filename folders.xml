@@ -53,6 +53,7 @@
    <Folder Name="Watch (for debugging)">
       <File Name="Soft Scope.ss5"/>
    </Folder>
+   <Program Name="NEWST"/>
    <File Name="Initial values.RCP"/>
    <FieldBus/>
    <Binding/>

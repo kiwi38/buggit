@@ -48,6 +48,7 @@
       <library path="@Libs\GeneralPurpose"/>
    </libraries>
    <poulist>
+      <pou name="NEWST" sect="begin" lge="ST"/>
       <pou name="MP3_UDFB" sect="begin" lge="FBD"/>
       <pou name="MP3_ST" sect="begin" lge="ST"/>
       <pou name="SFC_Practice" sect="sfc" lge="SFC"/>
