@@ -96,6 +96,7 @@
       <pou name="cxcxcc" sect="end" lge="FBD"/>
       <pou name="testNEX" sect="end" lge="FBD"/>
       <pou name="newfromG0" sect="end" lge="ST"/>
+      <pou name="PrgST" sect="end" lge="FFL"/>
       <pou name="UDFB_Boutons" sect="udfb" lge="FBD"/>
    </poulist>
 </K5project>
