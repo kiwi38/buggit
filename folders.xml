@@ -8,7 +8,7 @@
    </Folder>
    <Folder Name="Programs"/>
    <Folder Name="Watch (for debugging)">
-      <File Name="Soft Scope.ss5"/>
+      <File Name="Soft Scope.SS5"/>
    </Folder>
    <Program Name="a"/>
    <Program Name="aa"/>
